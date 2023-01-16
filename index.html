@@ -1,0 +1,31 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QUIZ 2</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="solution.js" defer></script>
+
+</head>
+
+<body class="container-fluid" onload="getOptions()">
+
+  <h1> JavaScript </h1>
+  <h3> Calling Forex Exchange API through Rest API </h3>
+
+
+  <div class="container">
+    <h1>FAST FOREX CURRENCY CONVERSION</h1><br><br>
+    Amount: <input type="number" name="amount" id="amount" placeholder="Enter the Amount" size="10">
+    From Currency: <select id="from_sym" name="from_sym"></select>
+    To Currency: <select id="to_sym" name="to_sym"></select>
+    <button onclick="currencyConvert()" type="button"> Convert </button>
+    <input type="text" name="answer" id="answer" placeholder="Result Here.." size="30">
+  </div>
+
+</body>
+
+</html>

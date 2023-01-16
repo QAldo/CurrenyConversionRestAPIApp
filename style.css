@@ -1,0 +1,54 @@
+body {
+  font: normal normal 13px/16px "Open Sans", sans-serif;
+  background: #e7e7ad;
+  background-image: linear-gradient(#d7cbdd, #dfc778, #b39bb2);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+  width: 1024px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background: rgb(122, 163, 225);
+  border-radius: 5px;
+}
+
+form {
+  display: inline-block;
+}
+
+select,
+button {
+  width: 120px;
+  height: 25px;
+}
+
+input {
+  padding: 2px;
+
+}
+
+input[type="number"] {
+  width: 10em;
+}
+
+#button {
+  display: inline-block;
+  background-color: #99e5fc;
+  color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 2px;
+  padding: 5px 15px;
+}
+
+#button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
